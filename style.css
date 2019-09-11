@@ -1,3 +1,43 @@
-font-family: 'Josefin Sans', sans-serif;
+body {
+    background-image: url(consigne/images/bg.jpg);
+}
 
-font-family: 'Bitter', serif;
+header, main {
+    width:1020px;
+    background-color: beige;
+    margin: auto;
+}
+
+header {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+
+}
+
+ul, li {
+    display: inline-block;
+    height: 60px;
+    color: white;
+    text-align: center;
+}
+
+ul, {
+    width:100%;
+}
+
+h1, h2 {
+    color: #cfa205;
+}
+
+h1 {
+    font-size: 133px;
+  
+}
+section a {
+    display: inline-block;
+}
+
+main {
+    font-family: 'Bitter', serif;
+}
