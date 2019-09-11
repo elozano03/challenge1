@@ -16,28 +16,41 @@ header {
 }
 
 ul, li {
+    padding: 10px;
     display: inline-block;
-    height: 60px;
+    height: 40px;
     color: white;
     text-align: center;
 }
 
-ul, {
+ul, h1, h2 {
     width:100%;
 }
-
 h1, h2 {
+    text-align: center;
     color: #cfa205;
 }
 
 h1 {
+    padding-top: 60px;
     font-size: 133px;
-  
+    height: 200px;
+    vertical-align: middle;
 }
-section a {
-    display: inline-block;
+h2 {
+    height: 60px;
 }
-
 main {
     font-family: 'Bitter', serif;
 }
+.social{
+    color: gray;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(160, 159, 159);
+}
+.social a {
+    color: rgb(94, 94, 94);
+}
+
